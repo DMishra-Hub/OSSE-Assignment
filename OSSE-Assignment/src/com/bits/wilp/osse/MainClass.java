@@ -25,6 +25,29 @@ public class MainClass {
 		con.preparedStatment(sqlStr);
 		return con.execute();
 	}
+
+
+
+	Private void NumberCheck(String[] args)   
+	{  
+	//number to be checked  
+	int num=912;  
+	//checks the number is greater than 0 or not  
+	if(num>0)  
+	{  
+	System.out.println("The number is positive.");  
+	}  
+	//checks the number is less than 0 or not  
+	else if(num<0)  
+	{  
+	System.out.println("The number is negative.");  
+	}  
+	//executes when the above two conditions return false  
+	else  
+	{  
+	System.out.println("The number is zero.");  
+	}  
+=======
 	
 	private void reverse of a number()
 	{
@@ -37,5 +60,6 @@ public class MainClass {
 		}
 		System.out.println("The reverse of the given number is: " + reverse);
 	}
+
 	
 }
